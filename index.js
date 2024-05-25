@@ -77,7 +77,7 @@ async function checkWeather(city){
     document.querySelector(".longitude").innerHTML = data.coord.lon;
     document.querySelector(".cloudliness").innerHTML = data.clouds.all+" %";
 
-    var weatherIcon = document.querySelector(".climate-img");
+    const weatherIcon = document.querySelector(".climate-img");
 
     weatherIcon.src = "assets/images/"+data.weather[0].main+".png";
     
