@@ -79,8 +79,9 @@ async function checkWeather(city){
 
     const weatherIcon = document.querySelector(".climate-img");
     var clmtname = data.weather[0].main;
-    console.log(clmtname);
-    weatherIcon.src = `./assets/images/${clmtname}.png`;
+    const lowClmate = clmtname.LowerCase();
+    console.log(lowClmate);
+    weatherIcon.src = `./assets/images/${lowClmate}.png`;
     
       
 
