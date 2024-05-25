@@ -78,10 +78,10 @@ async function checkWeather(city){
     document.querySelector(".cloudliness").innerHTML = data.clouds.all+" %";
 
     const weatherIcon = document.querySelector(".climate-img");
-    var clmtname = data.weather[0].main;
-    const lowClmate = clmtname.toLowerCase();
-    console.log(lowClmate);
-    weatherIcon.src = `./assets/images/${lowClmate}.png`;
+    var clmtname = data.weather[0].main.toLowerCase();
+   
+    console.log(clmtname);
+    weatherIcon.src = `./assets/images/${clmtname}.png`;
     
       
 
