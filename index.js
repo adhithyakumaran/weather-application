@@ -43,8 +43,8 @@ function getCurrentDateAndTime() {
 
 const apiKey = "09b7ba44cb12465b1bed43e63ae99a1c";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
-const apiAir = "http://api.openweathermap.org/data/2.5/air_pollution?";
-const apiForecast = "http://api.openweathermap.org/data/2.5/forecast?";
+const apiAir = "https://api.openweathermap.org/data/2.5/air_pollution?";
+const apiForecast = "https://api.openweathermap.org/data/2.5/forecast?";
 const SearchBox = document.querySelector(".search-box");
 const searchBtn =  document.querySelector(".search-btn");
 
