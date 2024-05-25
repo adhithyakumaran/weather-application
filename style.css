@@ -303,7 +303,7 @@ span{
     z-index: 5;
     position: fixed;
     transition: 2s ease-in-out;
-     display: none;   
+        
 }
 footer{
     width: 100%;
@@ -317,6 +317,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:200px;
 }
 #loader p{
     color: white;
@@ -594,7 +595,7 @@ margin-left: -10px;
 
 
     #loader img{
-        position: relative;
+       
         top: 40px;
         width: 100px;
         height: 100px;
