@@ -79,7 +79,7 @@ async function checkWeather(city){
 
     var weatherIcon = document.querySelector(".climate-img");
 
-    weatherIcon.src = "assets/images/"+data.weather[0].main+".png";
+    weatherIcon.src = "./assets/images/"+data.weather[0].main+".png";
     
       
 
